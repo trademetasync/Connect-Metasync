@@ -5,6 +5,11 @@ This tutorial shows you how to **authenticate and connect to your MT5 account** 
 
 ---
 
+## 🎥 Video Tutorial  
+
+[![Watch the video](https://img.youtube.com/vi/mj7Y1D__sCI/0.jpg)](https://www.youtube.com/watch?v=mj7Y1D__sCI&t=7s)
+
+
 ## 📦 Requirements
 
 - Python 3.7+ installed
