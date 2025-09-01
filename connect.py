@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "64e1be288amsh62f12ad6ee39cefp166594jsn8e4c1b6a2e1c"
+API_KEY = "your-rapid-api-key"
 HOST = "metasyc.p.rapidapi.com"
 
 headers = {
@@ -12,9 +12,9 @@ headers = {
 def connect_mt5(login=123456, password="your_password", server="Broker-Server"):
     url = f"https://{HOST}/connect"
     payload = {
-        "login": 52432513,
-        "password": "yqE&3Lu8H2qS2yx",
-        "server": "ICMARKETSSC-Demo"
+        "login": "mt5_login",
+        "password": "mt5_password",
+        "server": "your_broker_server"
     }
     r = requests.post(url, json=payload, headers=headers)
     return r.json()
